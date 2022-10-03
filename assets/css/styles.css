@@ -1,0 +1,84 @@
+header {
+  background-color: green;
+  color: white;
+  font-style: italic;
+  font-family: cursive;
+  padding: 2px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+header a{
+  text-decoration: none;
+  color: white;
+}
+
+nav {
+  background-color: aqua;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+nav > a {
+  display: inline-block;
+  padding: 12px;
+  font-size: larger;
+  font-weight: bold;
+  text-decoration: none;
+  text-align: center;
+}
+
+.active {
+  color: white;
+  background-color: greenyellow;
+}
+
+pre,
+code {
+  background-color: lightgray;
+  font-family: monospace;
+}
+
+code {
+  padding: 2px;
+}
+
+pre {
+  padding: 10px;
+}
+
+main {
+  background-color: white;
+  width: 90%;
+  margin: auto;
+  padding: 10px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+body {
+  background-color: whitesmoke;
+}
+
+footer{
+  width: 90%;
+  margin: auto;
+  margin-top: 10px;
+  background-color: antiquewhite;
+  padding: 10px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+main h1{
+  background-color: black;
+  color: white;
+  padding: 10px;
+}
+
+h2{
+  background-color: orange;
+}
+
+.post{
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin: 20px;
+  padding: 10px;
+  background-color: beige;
+}
